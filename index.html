@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Selecting an Element!</title>
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <ul class="container">
+      <li class="box" id="box-1"></li>
+      <li class="box box-to-select" id="box-2"></li>
+      <li class="box box-to-select" id="box-3"></li>
+      <li class="box box-to-select" id="box-4"></li>
+      <li class="box" id="box-5"></li>
+      <li class="box box-to-select-2" id="box-6"></li>
+      <li class="box box-to-select-2" id="box-7"></li>
+      <li class="box box-to-select-2" id="box-8"></li>
+    </ul>
+  </div>
+
+  <script>
+      //Get element by id
+      const box = document.getElementById("box-1");
+      box.addEventListener("click",function(event){
+        event.target.style.backgroundColor="pink";
+      })
+      //Get element by className
+
+      //Iterate boxes through a For of loop to add functionallity
+      //Get Element with qeurySelector
+
+      //Get element by querySelectorAll
+      //Iterate boxes through a For of loop to add functionallity
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body {
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: white;
+    }
+    .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .container {
+    margin-top: 5em;
+    height: 300px;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "box box box box";
+    }
+    .box {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    }
+    #box-1 {
+        background: blue;
+    }
+    #box-2 {
+        background: pink;
+    }
+    #box-3 {
+        background: peru
+    }
+    #box-4 {
+        background: purple;
+    }
+    #box-5 {
+      background:orangered;
+    }
+    #box-6 {
+      background:navy;
+    }
+    #box-7 {
+      background: orange;
+      
+    }
+    #box-8 {
+      background: powderblue;
+    }
