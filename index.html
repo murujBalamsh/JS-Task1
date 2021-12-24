@@ -36,13 +36,14 @@
 
           console.log(event,"event");
         });
-      }
-
-      //Iterate boxes through a For of loop to add functionallity
+        }
       //Get Element with qeurySelector
-
+      queryBox = document.querySelector("div ul #box-5");
+      queryBox.addEventListener("click",function(event){
+        event.target.style.backgroundColor="yellow";
+      });
       //Get element by querySelectorAll
-      //Iterate boxes through a For of loop to add functionallity
+     
   </script>
 </body>
 
