@@ -43,7 +43,15 @@
         event.target.style.backgroundColor="yellow";
       });
       //Get element by querySelectorAll
-     
+     const queryBoxes = document.querySelectorAll(".box-to-select-2");
+     for (const element of queryBoxes){
+     element.addEventListener("click",function (event) {
+     event.target.style.backgroundColor= "black";
+         
+       });
+      
+       
+     }
   </script>
 </body>
 
