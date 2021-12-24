@@ -29,6 +29,14 @@
         event.target.style.backgroundColor="pink";
       })
       //Get element by className
+      var boxes = document.getElementsByClassName("box box-to-select");
+      for (const element of boxes){
+        element.addEventListener("click",function(event){
+          event.target.style.backgroundColor="green";
+
+          console.log(event,"event");
+        });
+      }
 
       //Iterate boxes through a For of loop to add functionallity
       //Get Element with qeurySelector
