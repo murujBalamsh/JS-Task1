@@ -52,9 +52,14 @@
      event.target.style.backgroundColor= "black";
          
        });
-      
-       
      }
+     //add class
+     var circleBtn =document.querySelector(".btn-circle")
+     var allboxes =document.querySelectorAll(".box")
+     circleBtn.addEventListener("click",function () {
+     for(const element of allboxes)
+     element.classList.add("circle")
+     })
   </script>
 </body>
 
