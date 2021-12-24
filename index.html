@@ -57,9 +57,26 @@
      var circleBtn =document.querySelector(".btn-circle")
      var allboxes =document.querySelectorAll(".box")
      circleBtn.addEventListener("click",function () {
-     for(const element of allboxes)
+     for(const element of allboxes){
      element.classList.add("circle")
+     }
      })
+     //remove class
+     var resetBtn =document.querySelector(".btn-rest")
+     resetBtn.addEventListener("click",function () {
+     for(const element of allboxes){
+     element.classList.remove("circle") 
+     }
+     })
+     //toggle class
+     var toggleBtn =document.querySelector(".btn-toggle")
+     toggleBtn.addEventListener("click",function () {
+     for(const element of allboxes){
+     element.classList.toggle("circle") 
+     }
+     console.log(box.classList.contains("circle"));
+    })
+
   </script>
 </body>
 
